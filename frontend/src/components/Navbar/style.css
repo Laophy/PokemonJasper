@@ -1,0 +1,17 @@
+.Navbar {
+  padding: 15px;
+  margin-bottom: 20px;
+  background: #ff4236;
+  color: white;
+}
+
+.btn-navbar {
+  float: right;
+  border: none;
+  background-color: #ff4236;
+  height: 25px;
+}
+
+.btn-navbar:hover {
+  background-color: #cc3f35;
+}
