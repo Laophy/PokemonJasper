@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/PokemonJasper/static/css/main.e805fd08.chunk.css",
-    "main.js": "/PokemonJasper/static/js/main.d594a75b.chunk.js",
-    "main.js.map": "/PokemonJasper/static/js/main.d594a75b.chunk.js.map",
+    "main.css": "/PokemonJasper/static/css/main.b6b16466.chunk.css",
+    "main.js": "/PokemonJasper/static/js/main.70d7c1c5.chunk.js",
+    "main.js.map": "/PokemonJasper/static/js/main.70d7c1c5.chunk.js.map",
     "runtime-main.js": "/PokemonJasper/static/js/runtime-main.a62d52b3.js",
     "runtime-main.js.map": "/PokemonJasper/static/js/runtime-main.a62d52b3.js.map",
     "static/js/2.c53f6ef2.chunk.js": "/PokemonJasper/static/js/2.c53f6ef2.chunk.js",
     "static/js/2.c53f6ef2.chunk.js.map": "/PokemonJasper/static/js/2.c53f6ef2.chunk.js.map",
     "index.html": "/PokemonJasper/index.html",
-    "static/css/main.e805fd08.chunk.css.map": "/PokemonJasper/static/css/main.e805fd08.chunk.css.map",
+    "static/css/main.b6b16466.chunk.css.map": "/PokemonJasper/static/css/main.b6b16466.chunk.css.map",
     "static/js/2.c53f6ef2.chunk.js.LICENSE.txt": "/PokemonJasper/static/js/2.c53f6ef2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.a62d52b3.js",
     "static/js/2.c53f6ef2.chunk.js",
-    "static/css/main.e805fd08.chunk.css",
-    "static/js/main.d594a75b.chunk.js"
+    "static/css/main.b6b16466.chunk.css",
+    "static/js/main.70d7c1c5.chunk.js"
   ]
 }
