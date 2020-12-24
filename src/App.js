@@ -45,6 +45,7 @@ function App() {
   const loadingPokemon = async (data) => {
     let _pokemonData = await Promise.all(data.map(async pokemon => {
       let pokemonRecord = await getPokemon(pokemon.url);
+      console.log(pokemonRecord)
       return pokemonRecord
     }))
 
@@ -53,15 +54,16 @@ function App() {
 
   return (
     <div className="App">
-      { 
-        loading ? <h1>Loading...</h1> : ( 
-          <>
+      
+        
             <Navbar />
             <div className="btn">
-              <button onClick="">Shiny?</button>
+              <button onClick="">Shiny</button>
               <button onClick={prev}>Prev</button>
               <button onClick={next}>Next</button>
             </div>
+            { loading ? <h1>Loading...</h1> : ( 
+              <>
             <div className="grid-container">
               { pokemonData.map((pokemon, i) => {
                   return <Card key={i} pokemon={pokemon}/>

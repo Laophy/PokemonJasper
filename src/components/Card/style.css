@@ -3,12 +3,35 @@ p {
 }
 
 .Card {
-  background-color: rgb(235, 243, 234);
+  /* background-color: rgb(235, 243, 234); */
+  /* background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%); */
   border-radius: 10px;
+  border: solid 10px rgb(236, 236, 18);
+  max-width: 340px;
+  margin: 5px;
 }
 
 .Card__img {
   text-align: center;
+  padding-top: 5px;
+  object-fit: contain;
+  height: 100%;
+  zoom: 0.35;
+}
+.Card__img__background {
+  /* background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3c938f85-f834-4bb3-b3b2-97d295769464/d4wd5ev-871a2a0d-59f3-4f74-a69b-d425c8a1c0f9.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvM2M5MzhmODUtZjgzNC00YmIzLWIzYjItOTdkMjk1NzY5NDY0XC9kNHdkNWV2LTg3MWEyYTBkLTU5ZjMtNGY3NC1hNjliLWQ0MjVjOGExYzBmOS5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.WufN_NsEAW05qS725_sCY6zv1wg-GArrkJVCK-HUUk0"); */
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b3c54c95-8c44-4e5b-93ae-389fe559bcbf/d3b97b4-67d5d671-5e65-46a5-8a2c-f7627235ab8d.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvYjNjNTRjOTUtOGM0NC00ZTViLTkzYWUtMzg5ZmU1NTliY2JmXC9kM2I5N2I0LTY3ZDVkNjcxLTVlNjUtNDZhNS04YTJjLWY3NjI3MjM1YWI4ZC5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.MgxAqX66hx0ne4sTvYoOVzPmpGPdKBpilvEhGsYTjrU");
+  border: solid 5px rgb(236, 236, 18);
+  height: 185px;
+  margin: 15px;
+}
+
+.title__floatRight {
+  float: right;
+}
+
+.title__floatLeft {
+  float: left;
 }
 
 .Card__types {
@@ -21,17 +44,24 @@ p {
   margin: 10px 10px 10px 0;
   border-radius: 5px;
   background: cyan;
-  color: #fff;
+  color: #333;
+  font-weight: bold;
+  border: solid 1px black;
+  text-transform: capitalize;
 }
 
 .Card__name {
-  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   text-transform: capitalize;
   font-weight: 800;
 }
 
 .Card__info {
   margin-left: 10px;
+  text-transform: capitalize;
 }
 
 .Card__data {
