@@ -54,8 +54,6 @@ function App() {
 
   return (
     <div className="App">
-      
-        
             <Navbar />
             <div className="btn">
               <button onClick="">Shiny</button>
